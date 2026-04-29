@@ -1,6 +1,6 @@
 import React from 'react';
 import { Award, Users, Target, Heart } from 'lucide-react';
-
+import Imageees from "../../public/chairman.jpg"
 const About = () => {
   return (
     <>
@@ -168,7 +168,7 @@ const About = () => {
     {/* Image Container: Border color changed to soft nude blue */}
     <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl border border-[#f1f5f9]">
       <img 
-        src="../../public/chairman.jpg" 
+        src={Imageees} 
         alt="Dr. A.H. Rizvi" 
         className="w-full h-full object-cover  hover:grayscale-0 transition-all duration-700"
       />
