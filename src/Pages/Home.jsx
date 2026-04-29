@@ -3,7 +3,6 @@ import { ArrowRight } from 'lucide-react';
 import Navbar from '../Components/Layout/Navbar';
 import About from './About';
 import Institution from '../Pages/Institution';
-import NewsEvents from '../Pages/NewsEvents';
 import Contact from '../Pages/Contact';
 import Footer from '../Components/Layout/Footer'
 
@@ -307,7 +306,7 @@ const handleSubmit = (e) => {
 </section>
       <About/>
       <Institution/>
-      <NewsEvents/>
+      
       <Contact/>
       <Footer/>
     </>

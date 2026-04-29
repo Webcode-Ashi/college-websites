@@ -65,10 +65,7 @@ const Navbar = () => {
     {/* Right Side */}
     <div className="flex items-center gap-2 sm:gap-3 md:gap-4">
 
-      {/* Search */}
-      <button className="p-2 sm:p-3 rounded-xl  bg-white text-[#1E3A5F] hover:bg-[#E8DCCF] transition-all">
-        <Search size={18} className="sm:w-5 sm:h-5" />
-      </button>
+      
 
       {/* Brochure Button */}
       <button

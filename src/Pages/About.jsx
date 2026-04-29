@@ -7,7 +7,7 @@ const About = () => {
 
       {/* Full Height Hero About Section */}
       <section className="min-h-screen bg-[#fafaf9] flex flex-col items-center relative">
-       <div className="py-24 bg-[#fafaf9]"> 
+       <div className="pb-10 bg-[#fafaf9]"> 
   <div className="max-w-screen-2xl mx-auto px-8 md:px-16">
     <div className="grid lg:grid-cols-12 gap-16 items-start">
       
@@ -21,7 +21,7 @@ const About = () => {
           <h2 className="heading-font text-4xl md:text-5xl lg:text-6xl text-[#1e293b] leading-tight mb-6">
             Dr. Akhtar Rizvi <br />
             {/* Soft Blue Shade for the secondary heading line */}
-            <span className="text-[#64748b]">Educational Trust</span>
+            <span className="text-[#1E3A5F]">Educational Trust</span>
           </h2>
           {/* Subtle accent bar */}
           <div className="h-1.5 w-20 bg-[#1e293b] rounded-full"></div>
@@ -41,60 +41,60 @@ const About = () => {
       </div>
 
       {/* Right Column: Facilities Container with very light Nude Blue tint */}
-      <div className="lg:col-span-7 bg-[#f8fafc] rounded-[3rem] p-8 md:p-14 border border-[#f1f5f9]">
+      <div className="lg:col-span-7  rounded-[3rem] p-8 md:p-14 border border-[#f1f5f9]">
         <div className="text-center mb-12">
           {/* Heading color: Muted Slate Blue */}
-          <h3 className="heading-font text-5xl md:text-6xl text-[#334155] opacity-90 tracking-tighter">FACILITIES</h3>
+          <h3 className="heading-font text-5xl md:text-6xl text-[#1E3A5F] opacity-90 tracking-tighter">FACILITIES</h3>
         </div>
         
         <div className="grid sm:grid-cols-2 gap-6">
   
           {/* Card 1: Campus */}
-          <div className="bg-[#fafaf9] rounded-3xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 group border border-transparent hover:border-[#e2e8f0]">
+          <div className="bg-[#1E3A5F] rounded-3xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 group border border-transparent hover:border-[#e2e8f0]">
             <div className="flex justify-between items-start mb-4">
               {/* Number: Soft blue color, turns darker on hover */}
-              <span className="text-5xl font-bold text-[#1e293b]  transition-colors">01</span>
+              <span className="text-5xl font-bold text-white  transition-colors">01</span>
               {/* Icon Box: Pure White on Nude Blue background */}
               <div className="w-12 h-12 bg-[#f8fafc] rounded-xl flex items-center justify-center text-2xl border border-[#f1f5f9]">🏛️</div>
             </div>
-            <h4 className="text-xl font-bold text-[#1e293b] mb-2 group-hover:text-[#334155]">30 Acres Campus</h4>
-            <p className="text-sm text-[#64748b] leading-relaxed">
+            <h4 className="text-xl font-bold text-white mb-2 group-hover:text-[#334155]">30 Acres Campus</h4>
+            <p className="text-sm font-bold text-[#64748b] leading-relaxed">
               Spacious lush green campus with modern academic blocks, playgrounds, and a peaceful environment.
             </p>
           </div>
 
           {/* Card 2: Boys Hostel */}
-          <div className="bg-[#fafaf9] rounded-3xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 group border border-transparent hover:border-[#e2e8f0]">
+          <div className="bg-[#1E3A5F] rounded-3xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 group border border-transparent hover:border-[#e2e8f0]">
             <div className="flex justify-between items-start mb-4">
-              <span className="text-5xl font-bold text-[#1e293b]  transition-colors">02</span>
+              <span className="text-5xl font-bold text-white  transition-colors">02</span>
               <div className="w-12 h-12 bg-[#f8fafc] rounded-xl flex items-center justify-center text-2xl border border-[#f1f5f9]">👦</div>
             </div>
-            <h4 className="text-xl font-bold text-[#1e293b] mb-2 group-hover:text-[#334155]">Boys Hostel</h4>
-            <p className="text-sm text-[#64748b] leading-relaxed">
+            <h4 className="text-xl font-bold text-white mb-2 group-hover:text-[#334155]">Boys Hostel</h4>
+            <p className="text-sm font-bold text-[#64748b] leading-relaxed">
               Hostel facility inside campus with accommodation capacity for around 500 students and modern support.
             </p>
           </div>
 
           {/* Card 3: Girls Hostel */}
-          <div className="bg-[#fafaf9] rounded-3xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 group border border-transparent hover:border-[#e2e8f0]">
+          <div className="bg-[#1E3A5F] rounded-3xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 group border border-transparent hover:border-[#e2e8f0]">
             <div className="flex justify-between items-start mb-4">
-              <span className="text-5xl font-bold text-[#1e293b]  transition-colors">03</span>
+              <span className="text-5xl font-bold text-white  transition-colors">03</span>
               <div className="w-12 h-12 bg-[#f8fafc] rounded-xl flex items-center justify-center text-2xl border border-[#f1f5f9]">👧</div>
             </div>
-            <h4 className="text-xl font-bold text-[#1e293b] mb-2 group-hover:text-[#334155]">Girls Hostel</h4>
-            <p className="text-sm text-[#64748b] leading-relaxed">
+            <h4 className="text-xl font-bold text-white mb-2 group-hover:text-[#334155]">Girls Hostel</h4>
+            <p className="text-sm font-bold text-[#64748b] leading-relaxed">
               Safe and comfortable girls hostel within campus designed for security, convenience, and academic focus.
             </p>
           </div>
 
           {/* Card 4: Transport */}
-          <div className="bg-[#fafaf9] rounded-3xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 group border border-transparent hover:border-[#e2e8f0]">
+          <div className="bg-[#1E3A5F] rounded-3xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 group border border-transparent hover:border-[#e2e8f0]">
             <div className="flex justify-between items-start mb-4">
-              <span className="text-5xl font-bold text-[#1e293b]  transition-colors">04</span>
+              <span className="text-5xl font-bold text-white  transition-colors">04</span>
               <div className="w-12 h-12 bg-[#f8fafc] rounded-xl flex items-center justify-center text-2xl border border-[#f1f5f9]">🚌</div>
             </div>
-            <h4 className="text-xl font-bold text-[#1e293b] mb-2 group-hover:text-[#334155]">Wi-Fi & Transport</h4>
-            <p className="text-sm text-[#64748b] leading-relaxed">
+            <h4 className="text-xl font-bold text-white mb-2 group-hover:text-[#334155]">Wi-Fi & Transport</h4>
+            <p className="text-sm font-bold text-[#64748b] leading-relaxed">
               Full Wi-Fi enabled campus with transport facility for pick-up and drop from nearest major cities.
             </p>
           </div>
@@ -123,7 +123,7 @@ const About = () => {
     {/* Heading: Dark Slate with Nude Blue accent */}
     <h1 className="heading-font text-2xl md:text-4xl lg:text-5xl leading-tight font-bold tracking-tighter text-[#1e293b]">
       A Legacy of <br />
-      <span className="text-[#64748b]">Excellence in Education</span>
+      <span className="text-[#1E3A5F]">Excellence in Education</span>
     </h1>
 
     <div className="max-w-2xl space-y-6">
@@ -191,7 +191,7 @@ const About = () => {
     </div>
   </div>
 </div>
-         <div className="py-20 bg-[#fafaf9]">
+         <div className="py-10 my-5 rounded-3xl ">
   <div className="max-w-screen-xl mx-auto px-8 md:px-16">
 
     {/* Section Heading */}
@@ -200,7 +200,7 @@ const About = () => {
         Our Purpose
       </span>
       <h2 className="heading-font text-4xl md:text-5xl text-[#1e293b] font-bold">
-        Vision & <span className="text-[#94a3b8]">Mission</span>
+        Vision & <span className="text-[#1E3A5F]">Mission</span>
       </h2>
     </div>
 

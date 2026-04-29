@@ -39,7 +39,7 @@ const NewsEvents = () => {
             
             <div className="relative z-10">
               <div className="mb-10">
-                <h3 className="text-4xl font-bold text-[#1e3a8a] mb-4 tracking-tight">
+                <h3 className="text-4xl font-bold text-[#1E3A5F] mb-4 tracking-tight">
                   Stay in the Loop
                 </h3>
                 <p className="text-[#4b5563] text-lg max-w-md">
@@ -89,7 +89,7 @@ const NewsEvents = () => {
 
                   <button
                     type="submit"
-                    className="w-full bg-[#1e40af] hover:bg-[#1e3a8a] text-white font-bold px-10 py-5 rounded-2xl transition-all duration-300 shadow-lg shadow-blue-900/20 flex items-center justify-center gap-3 group"
+                    className="w-full bg-[#1E3A5F] hover:bg-[#1e3a8a] text-white font-bold px-10 py-5 rounded-2xl transition-all duration-300 shadow-lg shadow-blue-900/20 flex items-center justify-center gap-3 group"
                   >
                     Subscribe Now 
                     <Send className="w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
@@ -97,7 +97,7 @@ const NewsEvents = () => {
                 </form>
               )}
 
-              <p className="text-center text-xs text-blue-400 mt-8 font-medium">
+              <p className="text-center text-xs text-[#1E3A5F] mt-8 font-medium">
                 🔒 Your data is secure. Unsubscribe at any time.
               </p>
             </div>
@@ -107,7 +107,7 @@ const NewsEvents = () => {
           <div className="h-full flex flex-col justify-center">
             <div className="mb-8">
               <span className="text-blue-600 font-bold tracking-widest uppercase text-sm">Location</span>
-              <h3 className="text-4xl font-bold text-[#1e3a8a] mt-2 mb-4">
+              <h3 className="text-4xl font-bold text-[#1E3A5F] mt-2 mb-4">
                 Visit Our Campus
               </h3>
               <p className="text-gray-600 text-lg leading-relaxed">
@@ -130,11 +130,11 @@ const NewsEvents = () => {
 
               <div className="absolute bottom-6 left-6 right-6 bg-white/90 backdrop-blur-xl p-6 rounded-3xl shadow-2xl border border-white/50">
                 <div className="flex items-center gap-4">
-                  <div className="bg-blue-600 p-3 rounded-2xl">
+                  <div className="bg-[#1E3A5F] p-3 rounded-2xl">
                     <SchoolIcon className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <div className="font-bold text-[#1e3a8a] text-lg">
+                    <div className="font-bold text-[#1E3A5F] text-lg">
                       Rizvi Educational Campus
                     </div>
                     <div className="text-sm text-gray-500 font-medium">

@@ -7,21 +7,37 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Primary brand blue (college identity)
-        primary: "#1f2a44",     // deep academic blue
-        secondary: "#2c3e66",   // lighter blue
+        // Pure White Background Base
+        base: "#ffffff", 
 
-        // Nude / soft warm tone
-        nude: "#f3e7d3",        // soft beige-nude
-        sand: "#f7f5f2",        // light nude background
+        // Primary Blue (Navy/Dark Blue for professional identity)
+        primary: {
+          DEFAULT: "#1E3A5F", // Main Dark Blue (Jo aapne Footer/Contact mein manga tha)
+          light: "#2c4a75",
+          dark: "#0f172a",
+        },
 
-        // Neutral clean UI
-        white: "#ffffff",
-        light: "#f8fafc",
+        // Nude Tones (Beige/Sand shades for soft UI)
+        nude: {
+          DEFAULT: "#f3e7d3", // Authentic Nude
+          light: "#fafaf9",   // Off-white/Cream (Backgrounds ke liye best)
+          dark: "#e5d5bc",    // Thoda dark nude hover effects ke liye
+        },
 
-        // Accent (optional warm highlight)
-        accent: "#c9a06c",      // goldish nude highlight (very subtle)
+        // Secondary / Accent (Sand & Gold tones)
+        secondary: "#d4af7a", // Muted Goldish Nude (Icons ke liye best)
+        
+        // Neutral Slate for Text
+        slate: {
+          heading: "#1e293b",
+          body: "#64748b",
+        }
       },
+      // Optional: Custom Border Radius for that modern 'pill' look
+      borderRadius: {
+        '4xl': '2rem',
+        '5xl': '3rem',
+      }
     },
   },
   plugins: [],
