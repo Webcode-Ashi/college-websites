@@ -1,6 +1,6 @@
 import React from 'react';
 
-import InstitutionCard from '../components/common/InstitutionCard';
+import InstitutionCard from '../Components/Common/InstitutionCard';
 
 const Institutions = () => {
 
