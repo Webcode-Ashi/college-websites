@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { ArrowRight } from 'lucide-react';
-import Navbar from '../Components/layout/Navbar';
+import Navbar from '../Components/Layout/Navbar';
 import About from './About';
 import Institution from '../Pages/Institution';
 import NewsEvents from '../Pages/NewsEvents';
